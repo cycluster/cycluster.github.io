@@ -1,0 +1,36 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Code
+      url: /code.html   
+    - title: Lectures
+      url: /lectures.html  
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: About
+      folderitems:
+      - title: People
+        url: /people.html
+      - title: Updates
+        url: /mydoc_updates.html
+      - title: GitHub
+      external_url: https://github.com/CYCluster    
+    - title: Databases
+      folderitems:
+        - title: Kreuzer-Skarke
+          external_url: http://hep.itp.tuwien.ac.at/~kreuzer/CY/CYpalp.html
+        - title: AESZ
+          external_url: https://cydb.mathematik.uni-mainz.de/
+        - title: CICY
+          external_url: https://www-thphys.physics.ox.ac.uk/projects/CalabiYau/cicylist/
+        - title: LMFDB
+          external_url: https://www.lmfdb.org/
+
+
+    
+    
+# Copyright 2021 Google LLC
