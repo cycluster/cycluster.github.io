@@ -13,6 +13,7 @@ The Calabi-Yau cluster is aimed to serve as a code and documentation repository 
 
 More details coming soon. 
 
+This project is sponsored by Zulip.
 
 
 <!-- ## H1 

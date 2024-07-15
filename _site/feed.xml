@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 02 Jul 2024 15:19:15 +0200</pubDate>
-        <lastBuildDate>Tue, 02 Jul 2024 15:19:15 +0200</lastBuildDate>
+        <pubDate>Mon, 15 Jul 2024 15:45:38 -0700</pubDate>
+        <lastBuildDate>Mon, 15 Jul 2024 15:45:38 -0700</lastBuildDate>
         <generator>Jekyll v3.9.0</generator>
         
         <item>
@@ -30,7 +30,7 @@
 &lt;p&gt;[]:&lt;/p&gt;
 
 </description>
-            <pubDate>Fri, 26 Feb 2016 00:00:00 +0100</pubDate>
+            <pubDate>Fri, 26 Feb 2016 00:00:00 -0800</pubDate>
             <link>http://localhost:4000/samplepost.html</link>
             <guid isPermaLink="true">http://localhost:4000/samplepost.html</guid>
             
@@ -66,7 +66,7 @@
 &lt;p&gt;[]:&lt;/p&gt;
 
 </description>
-            <pubDate>Wed, 24 Feb 2016 00:00:00 +0100</pubDate>
+            <pubDate>Wed, 24 Feb 2016 00:00:00 -0800</pubDate>
             <link>http://localhost:4000/myupdate.html</link>
             <guid isPermaLink="true">http://localhost:4000/myupdate.html</guid>
             
@@ -90,7 +90,7 @@
 &lt;p&gt;[]:&lt;/p&gt;
 
 </description>
-            <pubDate>Sun, 12 Apr 2015 00:00:00 +0200</pubDate>
+            <pubDate>Sun, 12 Apr 2015 00:00:00 -0700</pubDate>
             <link>http://localhost:4000/test-post-from-last-year.html</link>
             <guid isPermaLink="true">http://localhost:4000/test-post-from-last-year.html</guid>
             
