@@ -10,7 +10,7 @@ summary:
 
 ### About the CYCluster
 
-The Calabi-Yau cluster a collaboration is aimed to serve as a code and documentation repository for various aspects of Calabi-Yau manifolds (aritmetic, geometry, physics).
+The Calabi-Yau cluster is a collaborative venture to build a code and documentation repository for various aspects of Calabi-Yau manifolds (arithmetic, geometry, physics).
 
 ### News
 

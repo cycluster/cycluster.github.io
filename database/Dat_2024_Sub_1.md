@@ -6,13 +6,13 @@ last_updated: #"July 16, 2016"
 summary:
 published: true
 sidebar: mydoc_sidebar
-permalink: Dat_2024_Sub_1.html
-folder: mydoc
+permalink: database/Dat_2024_Sub_1.html
+folder: database
 ---
 
-## Label: Dat_2024_Sub_1
+## Dat_2024_Sub_1
 
-### Paper: 
+### Paaaaper: 
 [Gegelia-van Straten 2024](https://arxiv.org/abs/2408.10183)
 
 ### Status: 
