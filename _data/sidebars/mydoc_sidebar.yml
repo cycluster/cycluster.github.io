@@ -17,20 +17,16 @@ entries:
     - title:
       url: /tocpage.html
       output: pdf
-      type: frontmatter
+      type: frontmatter    
 
   - title: Overview
     output: web, pdf
     folderitems:
 
-    - title: About
-      url: /about.html
-      output: web, pdf
-      type: homepage
-
-    - title: Introduction
-      url: /introduction.html
-      output: web, pdf
+    #- title: About
+    #  url: /about.html
+    #  output: web, pdf
+    #  type: homepage
 
     - title: Supported Databases
       url: /databases.html
@@ -40,11 +36,22 @@ entries:
     #  url: /mydoc_about.html
     #  output: web, pdf
 
+    - title: Progress
+      url: /progress.html
+      output: web, pdf
+
+
     - title: Support
       url: /support.html
       output: web, pdf
 
-
+  - title: Data
+    output: web, pdf
+    folderitems:
+        
+      - title: Raw Data
+        url: /rawdata.html
+        output: web, pdf
 
   - title: Code and Notes
     output: web, pdf

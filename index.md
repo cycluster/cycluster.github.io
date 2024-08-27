@@ -1,5 +1,5 @@
 ---
-title: "Calabi-Yau Cluster (Construction still underway)"
+title: "Calabi-Yau Cluster"
 keywords: CYCluster Homepage
 tags: 
 sidebar: mydoc_sidebar
@@ -7,14 +7,26 @@ permalink: index.html
 summary: 
 ---
 
-### Partially constructed, still under construction
 
-The Calabi-Yau cluster is aimed to serve as a code and documentation repository for various aspects of Calabi-Yau manifolds (aritmetic, geometry, physics). 
+### About the CYCluster
 
-More details coming soon. 
+The Calabi-Yau cluster a collaboration is aimed to serve as a code and documentation repository for various aspects of Calabi-Yau manifolds (aritmetic, geometry, physics).
 
-This project is sponsored by Zulip.
+### News
 
+Data for the paper [Paramodular forms from Calabi-Yau operators](https://arxiv.org/abs/2408.10183) [is now available](/rawdata.html)
+
+
+
+### Zulip
+
+This project is sponsored by Zulip. 
+Our dedicated Zulip channel is at: [cycluster.zulipchat.com](https://cycluster.zulipchat.com/login/?preview=true)
+To join the zulip channel, get in touch with kidambi@duck.com. 
+
+### Contributing
+
+If you are interested in contributing support (financial, moral, philosophical, ethical, coding, data etc.), get in touch with kidambi@duck.com
 
 <!-- ## H1 
 Follow these instructions to build the theme.

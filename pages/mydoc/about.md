@@ -1,5 +1,5 @@
 ---
-title: About the Calabi-Yau Cluster
+title: About
 keywords: 
 last_updated: 
 tags: 
@@ -9,11 +9,9 @@ permalink: about.html
 folder: mydoc
 ---
 
-## Cluster Mission
+###  
 
-* Prolonged, bitesized activities sprinkled with satellite and larger meetings. 
-* Train to use growing set of fantastic tools (LMFDB, Pari, Sage Magma, FLINT …ML/AI?)
-* Concretise with more examples. 
+<!--* Prolonged, bitesized activities sprinkled with satellite and larger meetings. -->
 * Build extensive repo of computational approaches 
 * Build repo of pedagogical code examples
 * Document everything! 

@@ -16,9 +16,9 @@ topnav_dropdowns:
       - title: People
         url: /people.html
       - title: Updates
-        url: /mydoc_updates.html
+        url: /updates.html
       - title: GitHub
-      external_url: https://github.com/CYCluster    
+        external_url: https://github.com/cycluster  
     - title: Databases
       folderitems:
         - title: Kreuzer-Skarke

@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Collections are useful if you want to loop through a special folder of pages that you make available in a content API. You could also use collections if you ...">
-<meta name="keywords" content="content_types,  groups, api, structure">
-<title>Collections | Calabi-Yau Cluster</title>
+<meta name="description" content=" ">
+<meta name="keywords" content=" ">
+<title>Raw Data | Calabi-Yau Cluster</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -142,11 +142,11 @@
                         
                         
                         
-                        <li><a href="mydoc_updates.html">Updates</a></li>
+                        <li><a href="updates.html">Updates</a></li>
                         
                         
                         
-                        <li><a href="">GitHub</a></li>
+                        <li><a href="https://github.com/cycluster" target="_blank" rel="noopener">GitHub</a></li>
                         
                         
                     </ul>
@@ -181,7 +181,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:kidambi@duck.com?subject=Calabi-Yau Cluster feedback&body=I have some feedback about the Collections page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:kidambi@duck.com?subject=Calabi-Yau Cluster feedback&body=I have some feedback about the Raw Data page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -201,7 +201,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Collections">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Raw Data">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -241,20 +241,6 @@
           
           
           
-          <li><a title="About" href="about.html">About</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Introduction" href="introduction.html">Introduction</a></li>
-          
-          
-          
-          
-          
-          
           <li><a title="Supported Databases" href="databases.html">Supported Databases</a></li>
           
           
@@ -262,7 +248,30 @@
           
           
           
+          <li><a title="Progress" href="progress.html">Progress</a></li>
+          
+          
+          
+          
+          
+          
           <li><a title="Support" href="support.html">Support</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Data" href="#">Data</a>
+      <ul>
+          
+          
+          
+          <li class="active"><a title="Raw Data" href="rawdata.html">Raw Data</a></li>
           
           
           
@@ -381,7 +390,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Collections</h1>
+   <h1 class="post-title-main">Raw Data</h1>
 </div>
 
 
@@ -389,7 +398,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Collections are useful if you want to loop through a special folder of pages that you make available in a content API. You could also use collections if you have a set of articles that you want to treat differently from the other content, with a different layout or format.</div>
+    <div class="summary"> </div>
    
 
     
@@ -422,54 +431,443 @@ $('#toc').on('click', 'a', function() {
 
     
 
-   <h2 id="what-are-collections">What are collections</h2>
-<p>Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see <a href="https://ben.balter.com/2015/02/20/jekyll-collections/">Ben Balter’s explanation of collections here</a>.</p>
+   <h2 id="papers-with-data">Papers with data</h2>
 
-<h2 id="create-a-collection">Create a collection</h2>
-<p>To create a collection, add the following in your configuration file:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Databases</th>
+      <th>Available</th>
+      <th>Label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://arxiv.org/abs/2408.10183">Gegelia-van Straten 2024</a></td>
+      <td>In Progres</td>
+      <td><a href="/Dat_2024_Sub_1.html">Dat_2024_Sub_1 </a></td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>collections:
-  tooltips:
-    output: true
-</code></pre></div></div>
+<!-- ## Linked Databases
 
-<p>In this example, “tooltips”” is the name of the collection.</p>
+The following features are not available.
 
-<h2 id="interacting-with-collections">Interacting with collections</h2>
+Database | Supported | Notes
+--------|-----------|-----------
+[LMFDB](https://www.lmfdb.org/) | Not started | | -->
 
-<p>You can interact with collections by using the <code class="language-plaintext highlighter-rouge">site.collectionname</code> namespace, where <code class="language-plaintext highlighter-rouge">collectionname</code> is what you’ve configured. In this case, if I wanted to loop through all tooltips, I would use <code class="language-plaintext highlighter-rouge">site.tooltips</code> instead of <code class="language-plaintext highlighter-rouge">site.pages</code> or <code class="language-plaintext highlighter-rouge">site.posts</code>.</p>
+<!-- 
 
-<p>See <a href="http://jekyllrb.com/docs/collections/">Collections in the Jekyll documentation</a> for more information.</p>
 
-<h2 id="how-to-use-collections">How to use collections</h2>
 
-<p>I haven’t found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See [Help APIs and UI tooltips][mydoc_help_api] for details.</p>
 
-<h2 id="video-tutorial-on-collections">Video tutorial on collections</h2>
 
-<p>See this <a href="http://jekyll.tips/jekyll-casts/introduction-to-collections/">video tutorial on Jekyll.tips</a> for more details on collections.</p>
 
-<p>[]:</p>
+[titlepage]: titlepage.html
 
-<p>[]:</p>
 
-<p>[]:</p>
 
-<p>[]:</p>
 
-<p>[]:</p>
+[tocpage]: tocpage.html
 
+
+
+
+
+
+[about]: about.html
+
+
+
+
+[introduction]: introduction.html
+
+
+
+
+[databases]: databases.html
+
+
+
+
+[support]: support.html
+
+
+
+
+
+
+[code]: code.html
+
+
+
+
+[lectures]: lectures.html
+
+
+
+
+[cheatsheets]: cheatsheets.html
+
+
+
+
+[literature]: literature.html
+
+
+
+
+
+
+[paramodular]: paramodular.html
+
+
+
+
+[cy_operators]: cy_operators.html
+
+
+
+
+[eulerfactors]: eulerfactors.html
+
+
+
+
+
+
+[]: 
+
+
+
+
+[]: 
+
+
+
+
+
+
+
+
+
+
+[titlepage]: titlepage.html
+
+
+
+
+[tocpage]: tocpage.html
+
+
+
+
+
+
+[databases]: databases.html
+
+
+
+
+[progress]: progress.html
+
+
+
+
+[support]: support.html
+
+
+
+
+
+
+[rawdata]: rawdata.html
+
+
+
+
+
+
+[code]: code.html
+
+
+
+
+[lectures]: lectures.html
+
+
+
+
+[cheatsheets]: cheatsheets.html
+
+
+
+
+[literature]: literature.html
+
+
+
+
+
+
+[paramodular]: paramodular.html
+
+
+
+
+[cy_operators]: cy_operators.html
+
+
+
+
+[eulerfactors]: eulerfactors.html
+
+
+
+
+
+
+[]: 
+
+
+
+
+[]: 
+
+
+
+
+
+
+
+
+
+
+[titlepage]: titlepage.html
+
+
+
+
+[tocpage]: tocpage.html
+
+
+
+
+
+
+[p1_landing_page]: p1_landing_page.html
+
+
+
+
+[p1_sample1]: p1_sample1.html
+
+
+
+
+[p1_sample2]: p1_sample2.html
+
+
+
+
+[p1_sample3]: p1_sample3.html
+
+
+
+
+
+
+[p1_sample4]: p1_sample4.html
+
+
+
+
+[p1_sample5]: p1_sample5.html
+
+
+
+
+[p1_sample6]: p1_sample6.html
+
+
+
+
+[p1_sample7]: p1_sample7.html
+
+
+
+
+
+
+
+
+
+
+[titlepage]: titlepage.html
+
+
+
+
+[tocpage]: tocpage.html
+
+
+
+
+
+
+[p2_landing_page]: p2_landing_page.html
+
+
+
+
+
+
+[p2_sample1]: p2_sample1.html
+
+
+
+
+[p2_sample2]: p2_sample2.html
+
+
+
+
+[p2_sample3]: p2_sample3.html
+
+
+
+
+[p2_sample4]: p2_sample4.html
+
+
+
+
+[p2_sample5]: p2_sample5.html
+
+
+
+
+
+
+[p2_sample6]: p2_sample6.html
+
+
+
+
+[p2_sample7]: p2_sample7.html
+
+
+
+
+[p2_sample8]: p2_sample8.html
+
+
+
+
+[p2_sample9]: p2_sample9.html
+
+
+
+
+[p2_sample10]: p2_sample10.html
+
+
+
+
+[p2_sample11]: p2_sample11.html
+
+
+
+
+[p2_sample12]: p2_sample12.html
+
+
+
+
+[p2_sample13]: p2_sample13.html
+
+
+
+
+[p2_sample14]: p2_sample14.html
+
+
+
+
+
+
+
+
+
+
+[mydoc_hyperlinks.html#automatedlinks]: mydoc_hyperlinks.html#automatedlinks
+
+
+
+
+[mydoc_hyperlinks.html#bookmarklinks]: mydoc_hyperlinks.html#bookmarklinks
+
+
+
+
+[mydoc_pages.html#someIdTag]: mydoc_pages.html#someIdTag
+
+
+
+
+
+
+
+
+
+
+
+
+
+[code]: code.html
+
+
+
+[lectures]: lectures.html
+
+
+
+
+
+
+
+
+
+
+[people]: people.html
+
+
+
+[updates]: updates.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
 
 
     <div class="tags">
-        
-        <b>Tags: </b>
-        
-        
-        
-        <a href="tag_content_types.html" class="btn btn-default navbar-btn cursorNorm" role="button">content_types</a>
-        
-        
         
     </div>
 
@@ -487,9 +885,10 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2024 CYCluster. All rights reserved. <br />
-<!--<span>Page last updated:</span> July 3, 2016<br/>-->
-Site last updated: Jul 15, 2024 <br />
+<!---->
+Site last updated: Aug 27, 2024 <br />
 <p><img src="images/company_logo.png" width="120" height="30" alt="Company logo"/></p>
+<p>Site template <a href="https://github.com/tomjoht/documentation-theme-jekyll">source</a></p>
                 </div>
             </div>
 </footer>
