@@ -1,41 +1,88 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+<!-- _layouts/post.html -->
+{%- assign year = page.date | date: "%Y" -%}
+{%- assign tags = page.tags | join: "" -%}
+{%- assign categories = page.categories | join: "" -%}
 
-    <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> {% if page.author %}<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">/ {{ page.author }}</span></span>{% endif %}{% if page.tags != null %}/
-            {% assign projectTags = site.data.tags.allowed-tags %}
-            {% for tag in page.tags %}
-            {% if projectTags contains tag %}
-            <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
-            {% endif %}
-            {% endfor %}
-            {% endif %}
+{% if page._styles %}
+<!-- Page/Post style -->
+<style type="text/css">
+  {{ page._styles }}
+</style>
+{% endif %}
 
-        </p>
+{% assign url_beginning = page.url | slice: 0, 6 %}
 
+<div class="post">
 
-    </header>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+    <p class="post-tags">
+      {% if url_beginning == '/blog/' -%}
+      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+      {% else %}
+      <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
+      {%- endif %}
+      {%- if tags != "" %}
+      &nbsp; &middot; &nbsp;
+        {% for tag in page.tags -%}
+          {% if url_beginning == '/blog/' -%}
+          <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+          {% else %}
+          <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }} &nbsp;
+          {%- endif %}
 
-    <div class="post-content" itemprop="articleBody">
+          {% endfor -%}
+      {% endif %}
 
-        {% if page.summary %}
-        <div class="summary">{{page.summary}}</div>
-        {% endif %}
+      {%- if categories != "" %}
+      &nbsp; &middot; &nbsp;
+        {% for category in page.categories -%}
+          {% if url_beginning == '/blog/' -%}
+          <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+          {% else %}
+          <i class="fa-solid fa-tag fa-sm"></i> {{ category }} &nbsp;
+          {%- endif %}
+        {% endfor -%}
+      {% endif %}
 
-        {{ content }}
+    </p>
+  </header>
+
+  <article class="post-content">
+    {% if page.toc and page.toc.beginning %}
+    <div id="table-of-contents">
+      {% toc %}
     </div>
+    <hr>
+    {% endif %}
+    <div id="markdown-content">
+      {{ content }}
+    </div>
+  </article>
 
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  <h2>References</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+  </div>
+  {%- endif %}
 
+  {%- if site.related_blog_posts.enabled -%}
+    {%- if page.related_posts == null or page.related_posts -%}
+      {% include related_posts.html %}
+    {%- endif %}
+  {%- endif %}
 
-</article>
+  {%- if site.disqus_shortname and page.disqus_comments -%}
+    {% include disqus.html %}
+  {%- endif %}
+  {%- if site.giscus and page.giscus_comments -%}
+    {% include giscus.html %}
+  {%- endif -%}
 
-{% include commento.html %}
-
-{{site.data.alerts.hr_shaded}}
-
-{% include footer.html %}
-
-{% comment %} Copyright 2021 Google LLC {% endcomment %}
+</div>

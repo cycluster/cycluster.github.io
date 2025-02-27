@@ -1,43 +1,43 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
-<meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-<title>{{ page.title }} | {{ site.site_title }}</title>
-<link rel="stylesheet" href="{{ "css/syntax.css" }}">
+    <!-- Metadata, OpenGraph and Schema.org -->
+    {% include metadata.html %}
 
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
-<link rel="stylesheet" href="css/modern-business.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="css/customstyles.css">
-<link rel="stylesheet" href="css/boxshadowproperties.css">
-<!-- most color styles are extracted out to here -->
-<link rel="stylesheet" href="css/theme-blue.css">
+    <!-- Bootstrap & MDB -->
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
+    <!-- <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url | bust_file_cache }}"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="{{ "js/jquery.navgoco.min.js" }}"></script>
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}" media="" id="highlight_theme_light" />
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- Anchor.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
-<script src="{{ "js/toc.js" }}"></script>
-<script src="{{ "js/customscripts.js" }}"></script>
+    {% if page.toc and page.toc.sidebar %}
+    <!-- Sidebar Table of Contents -->
+    <link href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet" />
+    {% endif %}
 
-<link rel="shortcut icon" href="{{ "images/favicon.ico"  }}">
+    {% if page.tikzjax %}
+    <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+    <script defer src="https://tikzjax.com/v1/tikzjax.js"></script>
+    {% endif %}
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+    <!-- Styles -->
+    {% if site.icon.size <= 4 %}
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
+    {% elsif site.icon != blank %}
+    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}"/>
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
-
-{% comment %} Copyright 2021 Google LLC {% endcomment %}
+    <!-- Dark Mode -->
+    {% if site.enable_darkmode %}
+    <link rel="stylesheet" href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url | bust_file_cache }}" media="none" id="highlight_theme_dark" />
+    <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
+    <script src="{{ '/assets/js/dark_mode.js' | relative_url | bust_file_cache }}"></script>
+    {% endif %}

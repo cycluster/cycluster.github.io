@@ -1,0 +1,51 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Name
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD 
+      institution:  
+      description:
+        - Doctoral dissertation : 
+        - Specialization :
+
+- title: Employment
+  type: time_table
+  contents:
+    - title: Postdoctoral fellow
+      institution: 
+      year: 
+
+
+## - title:  Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">Sato-Tate distributions</a>
+#      year: 2023-
+#      description: 
+#    - title: <a href="https://github.com/alshedivat/al-folio">Analytic strucutre of spaces of quasimodular forms</a>
+#      year: 2023-
+#      description:         
+
+- title: Fellowships
+  type: time_table
+  contents:
+    - year: 
+      items: 
+        - 
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Number Theory
+      items: 
+        - Arithmetic and Analytic Langlands Program
+        - Automorphic forms and L functions
+
+- title: Other Interests
+  type: list
+  contents:
+    - 

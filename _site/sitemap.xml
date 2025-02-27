@@ -1,409 +1,284 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
-  <url>
-    <loc>http://localhost:4000/samplepost.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/myupdate.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/test-post-from-last-year.html</loc>
-  </url>
-  
-  
-
-
-  
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/database/Dat_2024_Sub_1.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/Dat_2024_Sub_1.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/about.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/cheatsheets.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/mydoc/clustermap.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/code.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/computing_with_magma.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/cs_eulerfac.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/cy_operators.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/databases.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/eulerfactors.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/lectures.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/literature.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/mydoc_pages.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/mydoc_about.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/computing_with_pari.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/mydoc_posts.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/mydoc_publishing_github_pages.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/mydoc_sidebar_navigation.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/news.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/news_archive.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_landing_page.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_sample1.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_sample2.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_sample3.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_sample4.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_sample5.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_sample6.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p1_sample7.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_landing_page.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample1.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample10.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample11.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample12.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample13.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample14.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample2.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample3.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample4.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample5.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample6.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample7.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample8.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/p2_sample9.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/paramodular.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/people.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/progress.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/rawdata.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/support.html</loc>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/updates.html</loc>
-  </url>
-  
-  
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/news/announcement_2/</loc>
+<lastmod>2015-11-07T21:11:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/news/announcement_3/</loc>
+<lastmod>2016-01-15T12:59:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/news/announcement_1/</loc>
+<lastmod>2023-12-17T16:53:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2015/03/15/formatting-and-links.html</loc>
+<lastmod>2015-03-15T17:40:16+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2015/05/15/images.html</loc>
+<lastmod>2015-05-15T23:01:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2015/07/15/code.html</loc>
+<lastmod>2015-07-15T17:09:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2015/10/20/math.html</loc>
+<lastmod>2015-10-20T17:12:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/external-services/2015/10/20/disqus-comments.html</loc>
+<lastmod>2015-10-20T17:59:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/external-services/2020/09/28/twitter.html</loc>
+<lastmod>2020-09-28T17:12:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/external-services/2020/09/28/github-metadata.html</loc>
+<lastmod>2020-09-28T23:01:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2021/05/22/distill.html</loc>
+<lastmod>2021-05-22T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2021/07/04/diagrams.html</loc>
+<lastmod>2021-07-04T19:39:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/02/01/redirect.html</loc>
+<lastmod>2022-02-01T18:39:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/external-services/2022/12/10/giscus-comments.html</loc>
+<lastmod>2022-12-10T16:59:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/03/20/table-of-contents.html</loc>
+<lastmod>2023-03-20T16:59:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/03/20/tables.html</loc>
+<lastmod>2023-03-20T19:37:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/04/24/videos.html</loc>
+<lastmod>2023-04-24T23:01:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/04/25/audios.html</loc>
+<lastmod>2023-04-25T12:25:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/04/25/sidebar-table-of-contents.html</loc>
+<lastmod>2023-04-25T16:14:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/05/12/custom-blockquotes.html</loc>
+<lastmod>2023-05-12T21:53:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/07/04/jupyter-notebook.html</loc>
+<lastmod>2023-07-04T14:57:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/07/12/post-bibliography.html</loc>
+<lastmod>2023-07-12T15:56:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/sample-posts/2023/12/12/tikzjax.html</loc>
+<lastmod>2023-12-12T23:25:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/1_project/</loc>
+<lastmod>2025-02-27T10:41:31+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2_project/</loc>
+<lastmod>2025-02-27T10:41:31+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/3_project/</loc>
+<lastmod>2025-02-27T10:41:31+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/4_project/</loc>
+<lastmod>2025-02-27T10:41:31+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/5_project/</loc>
+<lastmod>2025-02-27T10:41:31+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/6_project/</loc>
+<lastmod>2025-02-27T10:41:31+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/1_lean.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/2_project.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/3_project.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/4_project.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/5_project.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/6_project.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/acknowledgements/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/activities/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/cv/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/_pages/dropdown.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/news/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/notes/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/organization/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/people/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/projecteuler.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/publications/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/repositories/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/resources/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/smfqseries/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/talks/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/formatting/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/links/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/images/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/code/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/math/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/comments/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/metadata/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/distill/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/diagrams/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/toc/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/tables/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/videos/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/audios/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/sidebar/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/blockquotes/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/jupyter/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tag/bib/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/category/sample-posts/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/category/external-services/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2015/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2020/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2021/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2022/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2023/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/files/bsd_notes.pdf</loc>
+<lastmod>2025-02-27T10:29:25+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/cyoperators.pdf</loc>
+<lastmod>2025-02-27T10:29:25+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/lfunctions.pdf</loc>
+<lastmod>2025-02-27T10:29:25+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/manin_motives.pdf</loc>
+<lastmod>2025-02-27T10:29:25+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/paramodular_cs.pdf</loc>
+<lastmod>2025-02-27T10:29:25+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/ranks_cheat.pdf</loc>
+<lastmod>2025-02-27T10:29:25+01:00</lastmod>
+</url>
 </urlset>
