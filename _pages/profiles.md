@@ -21,6 +21,12 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >   
 
+  - align: right
+    image: 
+    content: about_stepniczka.md
+    image_circular: true # crops the image to make it circular
+    more_info: >   
+
       
 
 ---
