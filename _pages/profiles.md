@@ -27,6 +27,17 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >   
 
-      
+  - align: right
+    image: 
+    content: about_lathwood.md
+    image_circular: true # crops the image to make it circular
+    more_info: >   
+
+  - align: right
+    image: 
+    content: about_kuusela.md
+    image_circular: true # crops the image to make it circular
+    more_info: >   
+
 
 ---
