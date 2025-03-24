@@ -1,5 +1,4 @@
 #### Paul Blesse
 Affiliation: **University of Bonn** <br>
-<!-- Email: kidambi[AT]duck.com  
-[WWW](https://abhirammk.github.io) -->
-Contributions: Stack development
+Email: [pblesse@uni-bonn.de](pblesse@uni-bonn.de)  <br>
+Contributions: Stack development, Doctesting, Data generation, Documentation

@@ -14,6 +14,18 @@ profiles:
     content: about_kidambi.md
     image_circular: true # crops the image to make it circular
     more_info: >
+    
+  - align: right
+    image: 
+    content: about_blesse.md
+    image_circular: true # crops the image to make it circular
+    more_info: >  
+    
+  - align: right
+    image: 
+    content: about_duecker.md
+    image_circular: true # crops the image to make it circular
+    more_info: >  
 
   - align: right
     image: 
