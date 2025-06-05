@@ -1,0 +1,56 @@
+project:
+  type: website
+  pre-render:
+    - python3 contributors.py
+website:
+  title: ""
+  navbar:      
+    right:
+      - icon: envelope-at-fill
+        href: mailto:kidambi@duck.com
+      - icon: github
+        href:  https://github.com/cycluster
+      - text: Zulip
+        href: https://cycluster.zulipchat.com
+      - icon: menu-button-wide
+        menu:
+          - text: Report a Bug
+            href:  mailto:cycluster@mpim-bonn.mpg.de
+  page-footer: 
+    left: "Copyright 2025, CYCluster. Made with [Quarto](https://github.com/quarto-dev)." 
+    center: "[Contributors](../contributors/)"
+  page-navigation: true
+  site-url: https://cycluster.github.io
+  sidebar:
+    contents:
+      - section: "Documentation"
+        contents:
+          - text: AESZ (CY Operators)
+            href: ../documentation/aesz/
+  back-to-top-navigation: false
+      
+format:
+
+  html:
+    math: katex  
+    grid:
+      sidebar-width: 300px
+      body-width: 1200px
+      margin-width: 300px
+      gutter-width: 1.5rem  
+    theme:
+      light: cosmo 
+    css: styles.css
+    toc: true
+    include-in-header:
+      - text: |
+          <link href="https://fonts.cdnfonts.com/css/tex-gyre-heros" rel="stylesheet">
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+filters:
+   - nutshell
+
+brand: brand/_brand.yml
+

@@ -1,0 +1,3 @@
+A Calabi-Yau manifold is a complex Kaehler manifold .... 
+
+See [CY manifolds for more](/knowledge/cymanifolds/)

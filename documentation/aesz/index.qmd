@@ -1,0 +1,316 @@
+# Calabi-Yau operators
+
+Glossary for the AESZ database. 
+
+## A-incarnation
+
+ If a Calabi-Yau operator $L$ arises as a regularisation of a quantum differential equation of a symplectic variety $Z$, we call $Z$ a (strong) A-incarnation of $L$. The regularisation defines a complete
+ intersection Calabi-Yau manifold inside $Z$ and the instanton numbers
+ of the differential operator are supposed to be equal to the number of
+ rational curves ($g=0$ GV-invariants) of $X$.
+
+## Apparent singularity
+
+ An apparent singularity is a singular point of a differential equation
+ with trivial local monodromy. The local exponents are all integeral.
+ For a Calabi-Yau operator, apparent singularities with exponents
+ $0,1,3,4$ are very common, although also other exponents do occur.
+ They are quite mysterious and I do not know what exactly is happening
+ to the geometrical model of a $B$-incarnation at such an apparent
+ singularity.
+
+## B-incarnation
+
+ If a Calabi-Yau operator $L$ appears as (factor of) the Picard-Fuchs
+ operator a one-parameter family $\mathcal{X} \longrightarrow P^1$ of
+ varieties, we call this family a $B$-incarnation of $L$. One then says
+ that $L$ is of geometrical origin. If at appears in a family of
+ Calabi-Yau varieties, we call it a strong $B$-incarnation. Many more
+ condition may be put here. We may require $h^{12}=1$, we may ask for a
+ projectice family, etc. For a given operator $L$ there are usually a
+ very large number of different $B$-incarnations. One may start
+ wondering about possible correspondences between different
+ incarnations which conjecturally always should exist. If an operator
+ is derived from a binomial sum, it is the diagonal of a rational
+ function and hence has a $B$-incarnation. A constant term series of
+ Laurent-series is a special diagonal, and obviously define
+ $B$-incarnation.
+
+## Binomial sum
+
+## Calabi-Yau operator
+
+ Under a Calabi-Yau operator $L \in C[x,\Theta]$ we understand a
+ differential operator $L$ with the following properties: 1. $L$ is
+ fuchsian of order $4$. 2. It has $0$ as MUM-point. 3. $L$ is
+ self-dual. 4. $L$ is strongly arithmetic.
+
+ Here *strongly arithmetic* means: 
+ 1. The solution $y_0(x)$ is $N$-integral. 
+ 1. The q-coordinate $q(x)$ is $N$-integral. 
+ 1. The instanton numbers are $N$-integral.
+
+ Conjecturally, any operator with an $N$-integral power-series solution
+ comes from geometry. There are many operators that satify (1) but not
+ (2)) or (3).
+
+ By shifting of exponents we may always assume the the exponents at $0$
+ are all $0$, so the operator in $\Theta$-form reads
+ $L=\Theta^4+xP_1(\Theta)+\ldots+x^rP_r(\Theta)$
+
+## C-point
+
+ A singular point of a Calabi-Yau operator is called a *C-point*, if
+ the local monodromy has a single Jordan block of size $2$. The most
+ common C-point is the *conifold singularity*, which can be recognised
+ by the local exponents $0,1,1,2$. The local monodromy around a
+ conifold singularity is a symplectic reflection. If the operator has a
+ $B$-incarnation, such conifold points appear where the variety aquires
+ one or more $A_1$-points (also called conifold points). At a C-point,
+ the limiting mixed Hodge structure $Gr^W_3H^3$ has Hodge numbers
+ $1,0,0,1$ and both $Gr^W_4$ and $Gr^W_2H^3$ are one-dimensional and
+ identified via $N$, the monodromy logarithm. The two dimensional Hodge
+ structure looks like that of a rigid Calabi-Yau threefold.
+
+## Degree
+
+ For a differential operator $L$ in $\Theta$-form
+ $L=P_0(\Theta)+xP_1(\Theta)+t^2P_2(\Theta)+\ldots+x^rP_r(\Theta)$ with
+ $P_k(\Theta)$ polynomials in $\Theta$, $P_r(\Theta) \neq 0$. we call
+ the number $r$ the *degree* of $L$.
+
+ Hypergeometric operators are operators of degree $1$, and the degree
+ serves as a simple measure of complexity of the operator. We always
+ tried to transform the operator into one with lowest possible degree,
+ but sometimes this makes the operator uglier. For Calabi-Yau operators
+ the degree is equal to the *sum the weights of all singular points*
+ $p \neq 0, \neq \infty$.
+
+ For a series $\phi(x)=\sum_n a_n x^n$ the equation $L\phi(x)=0$
+ translates in a recursion relation of length $r$
+ $P_0(n) a_n + P_1(n-1) a_n-1+\ldots P_r(n-r)a_{n-r}=0$ on the
+ coefficients $a_n$.
+
+## Diagonal
+
+ If
+ $f(x_1,x_2,\ldots,x_n)=\sum_{k_1,k_2,\ldots,k_n} a_{k_1, k_2 \ldots, k_n}x_1^{k_1}x_2^{k_2}\ldots x_n^{k_n}$
+ is a power series in $n$-variables, one puts
+ $\Delta_n(f):=\sum_{k}a_{k,k,\ldots,k} x^k \in \mathbb{C}[[x]]$. A
+ power series of the form $\Delta_n\left(\frac{P}{Q}\right)$, where $P$
+ and $Q$ are polynomials with $Q(0) \neq 0$ is called an $n$-diagonal.
+ Such $n$-diagonals always satisfy a Fuchsian differential equation of
+ geometric origin. If $W$ is a Laurent series in $x_1,x_2,\ldots, x_n$,
+ then its constant term series is
+ $\sum_n [W^n]_0 x^n =\Delta_{n+1} \dfrac{1}{1-x_0x_1\ldots x_n W(x_1,x_2,\ldots,x_n)},$
+ so constant term series are special diagonals. If a Calabi-Yau
+ operator has a $B$-incarnation, it has a representation as an
+ $n$-diagonal with $n \le 8$.
+
+## Differential operator
+
+ By a *differential operator* $L$ we mean here a linear differential
+ operator in a single variable $x$, in other words an element of the
+ ring $C[x, \frac{d}{dx}]$.
+
+ We can write an operator $L$ in so-called $\frac{d}{dx}$-form as
+ $L =a_0(x) \frac{d^n}{dx^n}+a_1(x) \frac{d^{n-1}}{dx^{n-1}}+\ldots +a_n(x)$
+ where the $a_i(x)$ are polynomials. By dividing by the greatest common
+ factor of the polynomials $a_0,a_1,\ldots,a_n$ we obtain the
+ associated *reduced* operator.
+
+ We work often with operators $L \in C[x,\Theta]$,
+ $\Theta=x\frac{d}{dx}$. Such an operator can be written in so-called
+ $\Theta$-form as
+
+ $L=P_0(\Theta)+xP_1(\Theta)+x^2P_2(\Theta)+\ldots+x^rP_r(\Theta)$ with
+ $P_k(\Theta)$ polynomials in $\Theta$, $P_r(\Theta) \neq 0$.
+
+## Discriminant
+
+ For a reduced differential operator in $\frac{d}{dx}$-form
+ $L =a_0(x) \frac{d^n}{dt^n}+a_1(x) \frac{d^{n-1}}{dt^{n-1}}+\ldots +a_n(x)$
+ the coefficient $a_0(x)$ is called the discriminant. The roots of the
+ polynomial $a_0(t)$ are singularities of the operator.
+
+## Exponents
+
+ For an operator $L$ in $\Theta$-form
+ $L=P_0(\Theta)+xP_1(\Theta)+x^2P_2(\Theta)+\ldots+x^rP_r(\Theta)$ with
+ $P_k(\Theta)$ polynomials in $\Theta$, $P_r(\Theta) \neq 0$, the roots
+ of the polynomial $P_0(\Theta)$ are called the *exponents* of $L$ at
+ $0$. The exponents at a general point $p$ are obtained by translating
+ $p$ to the origin and compute $P_0$ for the translated operator. The
+ exponents at infinity are the roots of $P_r(-\Theta)$. There is a
+ single relation between the exponents of a differential operator,
+ called the *Fuchs relation*. For a Calabi-Yau operator that relation
+ reads $\sum_{p} (6-\textup{exponent sum at}\; p)=12$
+
+## F-point
+
+ A singular point of a Calabi-Yau operator is called an $F$-point, if
+ the local monodromy around it has finite order. It means that the
+ limiting mixed Hodge structure stays pure here. A base change of
+ finite order converts this to a point with trivial local monodromy. It
+ then can be a non-singular point, or a so called *apparent
+ singularity*.
+
+## Frobenius basis
+
+ A Calabi-Yau operator has a preferred basis of solutions on a
+ slit-disc neigbourhood of a MUM-point. They can be written as
+ $y_0(x)=f_0(x)$ $y_1(x)=\log(x) f_0(x)+f_1(x)$
+ $y_2(x)=\frac{1}{2}\log(x)^2 f_0(x)+\log(x) f_1(x)+f_2(x)$
+ $y_3(x)=\frac{1}{6}\log(x)^3 f_0(x)+\frac{1}{2}\log(x)^2 f_1(x)+\log(x) f_2(x)+f_3(x)$
+ Here $f_0(x)$ is a power-series with integral coefficients,
+ $f_1,f_2,f_3 \in x\mathbb Q[[x]]$
+
+## Instanton numbers
+
+ The normalised instanton numbers $n_0:=1, n_1, n_2, \ldots$ are
+ defined by expanding the Yukawa-coupling $K(q)$ into a Lambert series
+ of the form 
+ $$ K(q)=1+\sum_{d=1}^{\infty} n_d \frac{d^3q^d}{1-q^d} $$.
+
+ These numbers are usually rational and in most cases there is a least
+ common denominator that we call the instanton denominator.
+
+ If the operator has characteristic invariants $(H^3,c_2H,c_3)$, we can
+ multiply through by the degree $D:=H^3$ and obtain the scaled
+ instanton numbers $n_0^*:=D, n_1^*=D n_1, n_2^* =D n_2, \ldots$ and
+ the number $n_d^*$ is supposed to coincide with the number of rational
+ degree $d$ curves (or $g=0$ Gopakumar-Vafa invariants) on an $A$-model
+ incarnation.
+
+## K-point
+
+ A singular point of a Calabi-Yau operator is called a *K-point*, if
+ the local monodromy has a two Jordan blocks of size $2$. Such points
+ are recognised by having two pairs of equal exponents. If the operator
+ has a $B$-incarnation, such K-points appear where the variety aquires
+ more complicated singularities. At a K-point, the limiting mixed Hodge
+ structure $Gr^W_3H^3 =0$, whereas both $Gr^W_4$ and $Gr^W_2H^3$ are
+ two dimensional with Hodge numbers $1,0,1$ which are identified via
+ $N$. the monodromy logarithm. The Hodge structure $1,0,1$ looks like
+ the trancendental lattice of a K3-surface with Picard number $20$, and
+ in the semi-stable reducion such a K3-surface should appear, hence the
+ name $K$-point for such singularities.
+
+## Monodromy
+
+## MUM-point
+
+ If the local monodromy around a singularity has a Jordan-block of
+ maximal size, it is called a MUM-point. By definition, a Calabi-Yau
+ operator has a MUM-point at the origin as defining property. At a
+ MUM-point all exponents have to be equal. For Calabi-Yau operators
+ MUM-points are characterised by having all equal exponents, which can
+ be seen from the Riemann symbol.
+
+## $q$-coordinate
+
+ The $q$-coordinate of a Calabi-Yau operator $L$ is defined as
+ $q=e^{y_1(x)/y_0(x)}$ where $y_0(x)$ and $y_1(x)$ are the first two
+ solutions of $L$ mear the MUM-point. As
+ $y_1(x)=\log(x) y_0(x)+f_1(x)$, $f_1(0)=0$, we in fact have
+ $q(x)=x.e^{f_1(x)}=x+ \alpha_2 x^2+\alpha_3 x^3+\ldots$ so $q$ can
+ indeed seen as a coordinate near $0 \in P^1$, and the above series
+ rather defines the $q$-coordinate in terms of the algebraic coordinate
+ $x$. In a way it plays a role similar to the $q$ in the theory of the
+ Tate-elliptic curve.
+
+## Quantum differential equation
+
+ Gromov-Witten invariants of a symplectic manifold $Z$ can be used to
+ define its so-called quantum $D$-module/Dubrovin-Givental connection
+ via $\nabla_{A}  S = A \ast S$ Here $S$ is a cohomology-valued
+ function and $\ast$ denotes quantum product. If $Z$ is a Fano manifold
+ with $H^2(Z)$ is one-dimensional and $A=H$ is the ample generator of
+ $H^2(Z)$, the horizontal sections satisfy the ordinary differential
+ equation $\Theta S(x)= H \ast S(x)$, where $\Theta=x\frac{d}{dx}$ and
+ $S(x)=\sum_{a \in H^*(Z) } s_a(x) a$ the cohomology valued function.
+ The differential equation satisfied by $s_{pt}(x)$, ($pt \in H^{*}(Z)$
+ the class of a point in $Z$) is called the *quantum differential
+ equation* of $Z$; it will have an irregular singularity at $x=\infty$.
+
+## Regularisation
+
+ The quantum differential equation of a Fano-manifold with
+ $Pic(Z)= \mathbb Z H$ has an irregular singularity at infinity. It can
+ be converted into a fuchsian differential equation using a *Laplace
+ transformation*. If $\psi(t)=\sum a_n t^n$ solves the quantum
+ differential equation of $Z$, and $K=-rH$, then its Laplace transform
+ $L\psi(s) =\frac{1}{x}\int_0^{\infty} \psi(t^r) e^{-t/s}bdt$ expands
+ as $L\psi(s)=\sum (r n)! a_n s^{r n}$ When we put $x=s^r$ we obtain
+ the function $\psi(x):=\sum_n (rn)! a_n x^n$ that satisfies a
+ differential equation that we call the *regularised quantum
+ differential equation*. It is supposed to be the Picard-Fuchs equation
+ of a Calabi-Yau manifold that is mirror dual to the anti-canonical
+ hyperplane section of $Z$.
+
+ In fact, to any nef-partition of the canonical bundle $K$ of $Z$ we
+ can associate a regularisation of the quantum differential equation.
+ If $r=r_1+r_2+\ldots+r_k$ is a partition of $r$ into $k$ parts, we can
+ regularise $\psi(t)=\sum_n a_n t^n$ to the series
+ $\phi(x)=\sum_n (r_1 n)! (r_2 n)! \ldots (r_k n)! a_n x^n$ which now
+ satisfies a fuchsian differential equation. It should be Picard-Fuchs
+ operator of a family of Calabi-Yaus mirror dual to the Calabi-Yau that
+ appears as complete intersection in $Z$ of $k$ general hypersurfaces
+ of degree $r_1,r_2, \ldots r_k$.
+
+## Riemann symbol
+
+ The Riemann symbol of an operator contains the exponents of the
+ operator at all singular points, including the point infinity. Under
+ each singular point of the operator we write a column containing the
+ exponents of the operator at that point. Usually, curly brackets are
+ written around the columns of exponents and a horizontal bar is
+ written to separate the singular points from the corresponding
+ exponents. The Rieman symbol is a convenient representation of the
+ ramification properties of the operator at the singular points. For
+ Calabi-Yau operators one can usually read off the local monodromy
+ around the singularities from the Riemann symbol.
+
+## Shifting
+
+ Multiplication of the solutions of a differential equation by an
+ algebraic function of $x$ lead to a shift of exponents at the
+ singularities of the algebraic function. For example, multiplication
+ by $x^{\alpha}$ lead to a shift of the exponents at $0$ and $\infty$
+ by $\alpha$ and $-\alpha$. By appropriate shifting, we can reduce the
+ *weight* of the singularities of the operator as much as possible,
+ which leads to an operator of lowest possible degree.
+
+## Singular point
+
+ A singular point of a differential operator $L$ of order $n$ is a
+ point where the exponents are *not* $0,1,2,\ldots,n-1$. For a
+ Calabi-Yau operator a great variety of different exponents may occur.
+ It is useful to use a rough classification into MUM-points, C-point,
+ K-points and F-points that reflect the Jordan structure of the local
+ monodromies.
+
+## Weight
+
+ The *weight* of a singular point $p$ of a differential operator $L$ of
+ order $n$ is defined as the number $n-k$, where $k$ is zero if $0$ is
+ not an exponent of $L$ at $p$ and else $k$ is the largest number such
+ that all numbers $0,1,\ldots,k-1$ are exponents of $L$ at $p$. So
+ $w(0,0,0,0)=3$, $w(0,1/2,1/2,1)$, $w(0,1,1,2)=1$, $w(1,2,3,4)=4$,
+ $w(0,1,2,3)=0$. The weights of the singular points determine the
+ degree of a reduced operator:
+ $\textup{degree}=\sum_{p \neq 0,\neq \infty}$
+
+## Yukawa coupling
+
+ By expressing a Calabi-Yau operator $L$ in its $q$-coordinate, it take
+ the form
+ $L=\theta^2 \frac{1}{K(q)}\theta^2,\;\;\; \theta=q \frac{d}{dq},$
+ where $K(q) \in C[[q]]$ is called the Yukawa-coupling of $L$. The
+ series $K(q)$ is the formal invariant of the operator $L$.
+
+ The Yukawa-coupling $\alpha$ of an operator $L$ in the original
+ $x$-coordinate is solution to the differential equation
+ $\alpha'=\frac{2}{n}a_1(x) \alpha$, where $a_1(x)$ is a first
+ coefficient of $L$ in $\frac{d}{dx}$-form. (Note however that the
+ Yukawa coupling transforms as a symmetric $3$-tensor.)

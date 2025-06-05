@@ -1,0 +1,56 @@
+---
+title: ""
+---
+
+
+
+
+
+
+::: {.box}
+### About
+The CYCluster is a database primarily aimed at the arithmetic geometric (number theoretic + algebraic geometric) aspects of [:Calabi-Yau manifolds](knowls/cymanifolds.html) and motives, in the spirit of the [LMFDB](https://www.lmfdb.org/). In due course of time, this website will include several features similar to the LMFDB in theme and functionality (viz. aspects of the Langlands program), and also include potential connections to physics. 
+
+This static page is the wiki for the CYCluster. 
+The database can be found at [cycluster.mpim-bonn.mpg.de](https://cycluster.mpim-bonn.mpg.de/)
+:::
+
+::: {.box}
+### Announcements
+
+Announcement of activities related to various aspects of this database: 
+
+#### Upcoming events
+
+1. [School on explicit methods in arithmetic geometry](https://indico.ictp.it/event/10848) (ICTP, June 30 - July 4 2025)
+1. [LuCANT](https://icerm.brown.edu/program/topical_workshop/tw-25-lucant) (ICERM, July 7-11 2025)
+1. [Workshop on explicit methods in arithmetic geometry](https://indico.ictp.it/event/10937/) (ICTP, July 7-11 2025)
+1. [Winter school on number theory and physics](https://indico.ictp.it/event/10965) (17-28 November 2025)
+
+See [Announcements](announcements/) for more information. 
+:::
+
+
+::: {.box}
+### Learn more
+
+#### Publications and Papers
+List coming soon
+
+::: 
+
+::: {.box}
+### Contribute
+
+To contribute (data submission, stack development, doctesting and programming), reach out to us by emailing [kidambi@duck.com](kidambi@duck.com).
+
+### Spotted an issue?
+Report it and follow up on it [here](https://github.com/cycluster/issues/issues).
+
+::: 
+
+:::{.box}
+### How to cite 
+
+To cite the CYCluster, 
+::: 

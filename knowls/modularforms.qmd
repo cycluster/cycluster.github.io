@@ -1,0 +1,16 @@
+---
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+          <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
+          <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+            onload="renderMathInElement(document.body);"></script>
+filters:
+  - nutshell
+---
+
+Modular forms are examples of automorphic forms which generalize periodic functions on elliptic curves. See [modular forms](/knowledge/modularforms/) for more information. 
+
+
